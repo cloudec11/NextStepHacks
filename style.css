@@ -100,6 +100,30 @@ button.godebt:hover{
   background-image: none;
 }
 
+button.debt {
+  border: none;
+  background-color: red;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  padding: 30px 200px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 10px;
+  background-image: none;
+  top: 82.1%;
+  left: 28.5%;
+}
+
+button.debt:hover{
+  background-color: #ffe600;
+  color: black;
+  background-image: none;
+}
+
 #total-tuition {
   position: absolute;
   left: 55%;

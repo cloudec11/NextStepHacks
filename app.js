@@ -10,13 +10,11 @@ function yearlyTuition() {
     if(schoolName == ""){
         schoolName = "school"
     }
-
     if (years <= 1){
         document.querySelector('#total-tuition').innerHTML = "The total cost of going to " + schoolName + " for " + years + " year is $" + totalCost;
     }else{
         document.querySelector('#total-tuition').innerHTML = "The total cost of going to " + schoolName + " for " + years + " years is $" + totalCost;
     }
-
 }
 
 function calculateInterest() {
@@ -28,8 +26,13 @@ function calculateInterest() {
 
     var monthlyPayment = top/(totalInterestRate-1);
 
-    document.querySelector('#monthly-payment').innerHTML = monthlyPayment;
+    let roundedTotal = monthlyPayment.toFixed(2);
+
+    if(months == 1){
+        document.querySelector('#monthly-payment').innerHTML = "You will have to make a  payment of $" + roundedTotal + " for " + months + " month";
+    }else{
+        document.querySelector('#monthly-payment').innerHTML = "You will have to make a monthly payment of $" + roundedTotal + " for " + months + " months";
+    }
     
-    console.log(monthlyPayment);
 
 }
