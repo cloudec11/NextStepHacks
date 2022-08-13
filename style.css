@@ -49,11 +49,6 @@ form {
   background-image: linear-gradient(to bottom right, #93dcf5, #ffffff);
 }
 
-
-
-kek {
-  font-family: 'Courier New', Courier, monospace;
-
 kek {
   font-family: "Courier New", Courier, monospace;
 
@@ -62,8 +57,7 @@ kek {
 }
 
 inst {
-
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 
   font-family: "Courier New", Courier, monospace;
 
@@ -92,11 +86,9 @@ button {
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   cursor: pointer;
-
-  
 }
 
-button:hover{
+button:hover {
   background-color: #ffe600;
   color: black;
 }
@@ -108,9 +100,7 @@ form {
   align-items: center;
   justify-content: center;
   color: black;
-  background-image: linear-gradient(to bottom right, #93dcf5, #FFFFFF);
-}
-
+  background-image: linear-gradient(to bottom right, #93dcf5, #ffffff);
 }
 
 button:hover {
@@ -135,4 +125,3 @@ form input {
 .last {
   margin: 10px;
 }
-
