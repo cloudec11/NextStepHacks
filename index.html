@@ -10,35 +10,34 @@
   </head>
   <body>
     <form id="form" onsubmit="return false;">
-      <p>Welcome to tuition calculator! Enter your information below.</p>
-      <p>You can enter 0 for some of the categories</p>
+      <kek>Welcome to tuition calculator! Enter your information below.</kek>
+      <br />
+      <inst>Enter 0 for empty catagories</inst>
 
       <p>School name:</p>
       <input type="text" id="school-name" />
 
       <p>Years:</p>
-      <input type="number" id="years" />
+      <input type="number" id="years" value="0" />
 
       <p>Yearly tution:</p>
-      <input type="number" id="yearly-tuition-cost" />
+      <input type="number" id="yearly-tuition-cost" value="0" />
 
       <p>Yearly living expenses:</p>
-      <input type="number" id="yearly-living-expenses" />
+      <input type="number" id="yearly-living-expenses" value="0" />
 
       <p>Total materials cost:</p>
-      <input type="number" id="materials-cost" />
+      <input type="number" id="materials-cost" value="0" />
 
       <p>Meal plan cost:</p>
-      <input type="number" id="meal-plan-cost" />
-      
-      <p>Additional costs:</p>
-      <input type="number" id="additional-cost" />
-      <input type="submit" onclick="yearlyTuition();" />
+      <input type="number" id="meal-plan-cost" value="0" />
 
+      <p>Additional costs:</p>
+      <input type="number" id="additional-cost" value="0" />
+
+      <a type="submit" onclick="yearlyTuition();" />
     </form>
 
-    <p id="school-name-disp"></p>
     <p id="total-tuition"></p>
-
   </body>
 </html>
