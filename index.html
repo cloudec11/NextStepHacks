@@ -18,7 +18,7 @@
       <input type="text" id="school-name" />
 
       <p>Years:</p>
-      <input type="number" id="years" value="0" />
+      <input type="number" id="years" value="1" />
 
       <p>Yearly tution:</p>
       <input type="number" id="yearly-tuition-cost" value="0" />
@@ -35,10 +35,14 @@
       <p>Additional costs:</p>
       <input type="number" id="additional-cost" value="0" />
 
+
+      <button type="submit" onclick="yearlyTuition();">Calculate</button>
+
       <button value="submit" type="submit" onclick="yearlyTuition();">
         Submit
       </button>
       <p class="last" id="total-tuition"></p>
+
     </form>
 
     <button class="continue">
