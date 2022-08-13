@@ -37,7 +37,7 @@ input {
 a {
   background-image: none;
   display: inline-block;
-} 
+}
 
 form {
   box-sizing: border-box;
@@ -50,9 +50,7 @@ form {
   background-image: none;
 }
 
-
-
- button.sub {
+button.sub {
   border: none;
   background-color: red;
   color: rgb(0, 0, 0);
@@ -67,10 +65,9 @@ form {
   cursor: pointer;
   border-radius: 10px;
   background-image: none;
-  
 }
 
-button.sub:hover{
+button.sub:hover {
   background-color: #ffe600;
   color: black;
   background-image: none;
@@ -94,7 +91,7 @@ button.godebt {
   left: 28.5%;
 }
 
-button.godebt:hover{
+button.godebt:hover {
   background-color: #ffe600;
   color: black;
   background-image: none;
@@ -118,22 +115,21 @@ button.debt {
   left: 28.5%;
 }
 
-button.debt:hover{
+button.debt:hover {
   background-color: #ffe600;
   color: black;
   background-image: none;
 }
 
-
 #total-tuition {
   position: absolute;
   left: 55%;
   top: 30%;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: x-large;
   font-weight: 400;
   background-color: #ffe600;
-
+}
 kek {
   font-family: "Courier New", Courier, monospace;
 
@@ -206,7 +202,6 @@ form {
 
 form input {
   margin-bottom: 10px;
-
 }
 .last {
   margin: 10px;
