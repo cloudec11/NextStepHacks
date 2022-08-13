@@ -1,4 +1,3 @@
-
 function yearlyTuition() {
     var yearlyTuition = parseFloat(document.getElementById("yearly-tuition-cost").value);
     var yearlyLivingExpenses = parseFloat(document.getElementById("yearly-living-expenses").value);
@@ -11,11 +10,21 @@ function yearlyTuition() {
     if(schoolName == ""){
         schoolName = "school"
     }
-    
-    
-
     document.querySelector('#total-tuition').innerHTML = "The total cost of going to " + schoolName + " for " + years + " years is $" + totalCost;
-
 
 }
 
+function calculateInterest() {
+    var principalValue = parseFloat(document.getElementById("money-owed").value);
+    var interestRate = parseFloat(document.getElementById("interest-rate").value)/12;
+    var months = parseFloat(document.getElementById("months").value);
+    var totalInterestRate = Math.pow((1 + interestRate), months);
+    var top = (principalValue * interestRate) * totalInterestRate
+
+    var monthlyPayment = top/(totalInterestRate-1);
+
+    document.querySelector('#monthly-payment').innerHTML = monthlyPayment;
+    
+    console.log(monthlyPayment);
+
+}

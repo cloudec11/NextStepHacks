@@ -49,6 +49,54 @@ form {
   background-image: linear-gradient(to bottom right, #93dcf5, #ffffff);
 }
 
-form input {
-  margin-bottom: 10px;
+
+kek {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 40px;
+  color: black;
+}
+
+inst {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  color: black;
+}
+
+input {
+  display: block;
+  padding: 20px 15px;
+  background-color: aliceblue;
+  border-radius: 8px;
+  transition: 0.4s;
+}
+
+button {
+  border: none;
+  background-color: red;
+  color: rgb(0, 0, 0);
+  padding: 30px 200px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 30px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+}
+
+button:hover{
+  background-color: #ffe600;
+  color: black;
+}
+
+form {
+  box-sizing: border-box;
+  padding: 0;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  background-image: linear-gradient(to bottom right, #93dcf5, #FFFFFF);
 }
