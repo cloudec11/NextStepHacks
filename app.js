@@ -11,5 +11,4 @@ function yearlyTuition() {
         schoolName = "school"
     }
 
-    document.querySelector('#total-tuition').innerHTML = "The total cost of going to " + schoolName + " for " + years + " years is $" + totalCost;
 }
