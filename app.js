@@ -23,8 +23,9 @@ function calculateInterest() {
 
     var monthlyPayment = top/(totalInterestRate-1);
 
-    document.querySelector('#monthly-payment').innerHTML = monthlyPayment;
+    let roundedTotal = monthlyPayment.toFixed(2);
+
+    document.querySelector('#monthly-payment').innerHTML = roundedTotal;
     
-    console.log(monthlyPayment);
 
 }
