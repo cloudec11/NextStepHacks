@@ -10,7 +10,7 @@
   </head>
   <body>
     <form id="form" onsubmit="return false;">
-      <kek>Welcome to tuition calculator! Enter your information below.</kek>
+      <kek>Welcome to Tuition Calculator! Enter your information below.</kek>
       <br />
       <inst>Enter 0 for empty catagories</inst>
 
@@ -36,17 +36,18 @@
       <input type="number" id="additional-cost" value="0" />
 
 
+
       <button type="submit" onclick="yearlyTuition();">Calculate</button>
 
-      <button value="submit" type="submit" onclick="yearlyTuition();">
+      <button class="sub" value="submit" type="submit" onclick="yearlyTuition();">
         Submit
       </button>
       <p class="last" id="total-tuition"></p>
 
     </form>
 
-    <button class="continue">
-      <a href="debt.html">Continue to debt calculator</a>
-    </button>
+
+    </form>
+    <a href="debt.html"><button class="godebt">Calculate Debt</button></a>
   </body>
 </html>

@@ -4,18 +4,25 @@
   box-sizing: border-box;
   font-family: "Courier New", Courier, monospace;
   font-size: 20px;
+  background-image: linear-gradient(to bottom right, #93dcf5, #ffffff);
 }
 
 kek {
   font-family: "Courier New", Courier, monospace;
   font-size: 40px;
   color: blue;
+  background-image: none;
 }
 
 inst {
   font-family: "Courier New", Courier, monospace;
   font-size: 30px;
   color: blue;
+  background-image: none;
+}
+
+p {
+  background-image: none;
 }
 
 input {
@@ -24,19 +31,13 @@ input {
   background-color: aliceblue;
   border-radius: 8px;
   transition: 0.4s;
+  background-image: none;
 }
 
 a {
-  display: block;
-  width: 80%;
-  padding: 10px 15px;
-  background-color: rgb(213, 216, 12);
-  border-radius: 8px;
-  transition: 0.4s;
-  position: relative;
-  top: 5%;
-  height: 5%;
-}
+  background-image: none;
+  display: inline-block;
+} 
 
 form {
   box-sizing: border-box;
@@ -46,8 +47,92 @@ form {
   align-items: center;
   justify-content: center;
   color: rgb(0, 17, 255);
-  background-image: linear-gradient(to bottom right, #93dcf5, #ffffff);
+  background-image: none;
 }
+
+
+
+ button.sub {
+  border: none;
+  background-color: red;
+  color: rgb(0, 0, 0);
+  padding: 30px 200px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 80px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 10px;
+  background-image: none;
+  
+}
+
+button.sub:hover{
+  background-color: #ffe600;
+  color: black;
+  background-image: none;
+}
+
+button.godebt {
+  border: none;
+  background-color: red;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  padding: 30px 200px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 10px;
+  background-image: none;
+  top: 82.1%;
+  left: 28.5%;
+}
+
+button.godebt:hover{
+  background-color: #ffe600;
+  color: black;
+  background-image: none;
+}
+
+button.debt {
+  border: none;
+  background-color: red;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  padding: 30px 200px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 10px;
+  background-image: none;
+  top: 82.1%;
+  left: 28.5%;
+}
+
+button.debt:hover{
+  background-color: #ffe600;
+  color: black;
+  background-image: none;
+}
+
+
+#total-tuition {
+  position: absolute;
+  left: 55%;
+  top: 30%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+  font-weight: 400;
+  background-color: #ffe600;
 
 kek {
   font-family: "Courier New", Courier, monospace;
@@ -121,6 +206,7 @@ form {
 
 form input {
   margin-bottom: 10px;
+
 }
 .last {
   margin: 10px;

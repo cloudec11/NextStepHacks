@@ -28,6 +28,7 @@ function calculateInterest() {
 
     let roundedTotal = monthlyPayment.toFixed(2);
 
+
     if(months == 1){
         document.querySelector('#monthly-payment').innerHTML = "You will have to make a  payment of $" + roundedTotal + " for " + months + " month";
     }else{
@@ -36,3 +37,4 @@ function calculateInterest() {
     
 
 }
+
