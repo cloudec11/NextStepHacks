@@ -13,24 +13,25 @@
       <p>Welcome to tuition calculator! Enter your information below.</p>
       <p>You can enter 0 for some of the categories</p>
 
-
       <p>School name:</p>
-      <input type="text" id="userInput" />
-      <input type="submit" onclick="storeSchoolName();" />
+      <input type="text" id="school-name" />
 
       <p>Years:</p>
-      <input type="text" id="years" />
+      <input type="number" id="years" />
 
       <p>Yearly tution:</p>
-      <input type="text" id="add-cost" />
+      <input type="number" id="yearly-tuition-cost" />
 
-      <p>Materials cost per year:</p>
-      <input type="text" id="userInput" />
+      <p>Total materials cost:</p>
+      <input type="number" id="materials-cost" />
 
       <p>Meal plan cost:</p>
-      <input type="text" id="userInput" />
-      <input type="submit" onclick="yearlyTuition();" />
+      <input type="number" id="meal-plan-cost" />
       
+      <p>Additional costs:</p>
+      <input type="number" id="additional-cost" />
+      <input type="submit" onclick="yearlyTuition();" />
+
     </form>
 
     <p id="school-name-disp"></p>
