@@ -4,7 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Debt Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
   </head>
-  <body></body>
+  <body>
+    <form id="form" onsubmit="return false;">
+      <kek>Welcome to debt calculator! Enter your information below.</kek>
+      <br />
+      <inst>Enter 0 for empty catagories</inst>
+
+      <p>Principal value (original amount owed):</p>
+      <input type="number" id="money-owed" value="0" />
+
+      <p>Yearly interest rate (input as a decimal, 5% → 0.05):</p>
+      <input type="text" id="interest-rate" value="0" />
+
+      <p>Number of months:</p>
+      <input type="number" id="months" value="0" />
+
+      <button type="submit" onclick="calculateInterest();">Calculate</button>
+    </form>
+
+    <p id="monthly-payment"></p>
+
+  </body>
 </html>
