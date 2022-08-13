@@ -1,9 +1,13 @@
-const button = document.querySelector('.submit')
-const displayArea = document.querySelector('.school-name-disp')
-const displayText = document.querySelector('#school-name')
-
-const display = ()=>{
-    console.log('hjellasd');
-    let inputValue = displayText.textContent;
-    displayArea.innerHTML = inputValue;
+function storeSchoolName() {
+    var input = document.getElementById("userInput").value;
+    document.querySelector('#school-name-disp').innerHTML = input;
 }
+
+function yearlyTuition() {
+    var yearlyCost = document.getElementById("add-cost").value;
+    var years = document.getElementById("years").value;
+    var totalCost = yearlyCost * years;
+    console.log(totalCost);
+    document.querySelector('#total-tuition').innerHTML = totalCost;
+}
+
