@@ -35,10 +35,15 @@
       <p>Additional costs:</p>
       <input type="number" id="additional-cost" value="0" />
 
-      <button type="submit" onclick="yearlyTuition();">Calculate</button>
-    </form>
 
-    <p id="total-tuition"></p>
+      <button type="submit" onclick="yearlyTuition();">Calculate</button>
+
+      <button value="submit" type="submit" onclick="yearlyTuition();">
+        Submit
+      </button>
+      <p class="last" id="total-tuition"></p>
+
+    </form>
 
     <button class="continue">
       <a href="debt.html">Continue to debt calculator</a>
