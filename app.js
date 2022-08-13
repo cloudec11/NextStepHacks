@@ -1,4 +1,3 @@
-
 function yearlyTuition() {
     var yearlyTuition = parseFloat(document.getElementById("yearly-tuition-cost").value);
     var yearlyLivingExpenses = parseFloat(document.getElementById("yearly-living-expenses").value);
