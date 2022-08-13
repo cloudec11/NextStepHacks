@@ -1,4 +1,3 @@
-
 function yearlyTuition() {
     var yearlyTuition = parseFloat(document.getElementById("yearly-tuition-cost").value);
     var yearlyLivingExpenses = parseFloat(document.getElementById("yearly-living-expenses").value);
@@ -11,11 +10,6 @@ function yearlyTuition() {
     if(schoolName == ""){
         schoolName = "school"
     }
-    
-    
 
     document.querySelector('#total-tuition').innerHTML = "The total cost of going to " + schoolName + " for " + years + " years is $" + totalCost;
-
-
 }
-
