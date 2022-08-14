@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Debt</title>
     <link rel="stylesheet" href="style.css" />
     <script src="app.js"></script>
   </head>
@@ -11,7 +12,7 @@
     <form id="form" onsubmit="return false;">
       <kek>Welcome to debt calculator! Enter your information below.</kek>
       <br />
-      <inst>Enter 0 for empty catagories</inst>
+      <inst>Please fill in all fields</inst>
 
       <p>Principal value (original amount owed):</p>
       <input type="number" id="money-owed" value="0" />
@@ -22,14 +23,16 @@
       <p>Number of months:</p>
       <input type="number" id="months" value="0" />
 
-
-      <button class="debt" type="submit" onclick="calculateInterest();">Calculate</button>
+      <button class="debt" type="submit" onclick="calculateInterest();">
+        Calculate
+      </button>
       <p id="monthly-payment"></p>
       <p id="total-interest"></p>
     </form>
 
+
     <a href="index.html"><button class="debt2">Tuition Calculator</button></a>
     <a href="mainpage.html"><button class="debt3">Mainpage</button></a>
+
   </body>
 </html>
-

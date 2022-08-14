@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Tuition</title>
     <link rel="stylesheet" href="style.css" />
     <script src="app.js"></script>
   <style>
@@ -38,9 +38,6 @@
       <br />
       <inst>Enter 0 for empty catagories</inst>
 
-      <p>School name:</p>
-      <input type="text" id="school-name" />
-
       <p>Years:</p>
       <input type="number" id="years" value="1" />
 
@@ -59,16 +56,20 @@
       <p>Additional costs:</p>
       <input type="number" id="additional-cost" value="0" />
 
-      <button class="sub" value="submit" type="submit" onclick="yearlyTuition();">
-        Submit
-      </button>
-      <p class="last" id="total-tuition"></p>
 
+      <button class="sub" type="submit" onclick="yearlyTuition();">
+        Calculate
+
+      </button>
+
+      <p class="last" id="total-tuition"></p>
     </form>
+
 
 
     </form>
     <a href="debt.html"><button class="godebt">Calculate Debt</button></a>
     <a href="mainpage.html"><button class="main">Mainpage</button></a>
+
   </body>
 </html>

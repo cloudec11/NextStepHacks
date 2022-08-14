@@ -37,7 +37,7 @@ input {
 a {
   background-image: none;
   display: inline-block;
-} 
+}
 
 form {
   box-sizing: border-box;
@@ -50,9 +50,7 @@ form {
   background-image: none;
 }
 
-
-
- button.sub {
+button.sub {
   border: none;
   background-color: red;
   color: rgb(0, 0, 0);
@@ -61,16 +59,14 @@ form {
   text-decoration: none;
   display: inline-block;
   font-size: 25px;
-  margin: 80px 2px;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   cursor: pointer;
   border-radius: 10px;
   background-image: none;
-  
 }
 
-button.sub:hover{
+button.sub:hover {
   background-color: #ffe600;
   color: black;
   background-image: none;
@@ -90,11 +86,11 @@ button.godebt {
   cursor: pointer;
   border-radius: 10px;
   background-image: none;
-  top: 82.1%;
-  left: 28.5%;
+  top: 76.7%;
+  left: 34.5%;
 }
 
-button.godebt:hover{
+button.godebt:hover {
   background-color: #ffe600;
   color: black;
   background-image: none;
@@ -114,15 +110,18 @@ button.debt {
   cursor: pointer;
   border-radius: 10px;
   background-image: none;
+
   top: 50%;
   left: 2%;
+
 }
 
-button.debt:hover{
+button.debt:hover {
   background-color: #ffe600;
   color: black;
   background-image: none;
 }
+
 
 
 button.debt2 {
@@ -141,6 +140,22 @@ button.debt2 {
   background-image: none;
   top: 50%;
   left: 32.5%;
+
+#total-tuition {
+  position: absolute;
+  left: 55%;
+  top: 30%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: x-large;
+  font-weight: 400;
+  background-color: #ffe600;
+}
+kek {
+  font-family: "Courier New", Courier, monospace;
+
+  font-size: 40px;
+  color: black;
+
 }
 
 button.debt2:hover{
@@ -173,6 +188,7 @@ button.debt3:hover{
   background-image: none;
 }
 
+
 #total-tuition {
   position: absolute;
   left: 55%;
@@ -180,8 +196,23 @@ button.debt3:hover{
   font-family: 'Times New Roman', Times, serif;
   font-size: x-large;
   font-weight: 400;
+
+form {
+  box-sizing: border-box;
+  padding: 0;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  padding-bottom: 100px;
+  background-image: linear-gradient(to bottom right, #93dcf5, #ffffff);
+}
+
+button:hover {
+
   background-color: #ffe600;
 }
+
 
 #monthly-payment {
   position: absolute;
@@ -205,3 +236,31 @@ button.debt3:hover{
   top: 28%;
   left: 5;
 }
+
+form {
+  box-sizing: border-box;
+  padding: 0;
+  padding-left: 10px;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  margin-bottom: 100px;
+  background-image: linear-gradient(to bottom right, #93dcf5, #ffffff);
+}
+
+form input {
+  margin-bottom: 10px;
+}
+
+.back {
+  position: absolute;
+  top: 52.7%;
+  padding-left: 20px;
+  margin-left: 10px;
+}
+
+form-home {
+  padding-bottom: 100px;
+}
+
