@@ -59,7 +59,6 @@ button.sub {
   text-decoration: none;
   display: inline-block;
   font-size: 25px;
-  margin: 80px 2px;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   cursor: pointer;
@@ -87,8 +86,8 @@ button.godebt {
   cursor: pointer;
   border-radius: 10px;
   background-image: none;
-  top: 82.1%;
-  left: 28.5%;
+  top: 88%;
+  left: 34.5%;
 }
 
 button.godebt:hover {
@@ -111,7 +110,7 @@ button.debt {
   cursor: pointer;
   border-radius: 10px;
   background-image: none;
-  top: 82.1%;
+  top: 42.7%;
   left: 28.5%;
 }
 
@@ -181,6 +180,7 @@ form {
   align-items: center;
   justify-content: center;
   color: black;
+  padding-bottom: 100px;
   background-image: linear-gradient(to bottom right, #93dcf5, #ffffff);
 }
 
@@ -197,12 +197,15 @@ form {
   align-items: center;
   justify-content: center;
   color: black;
+  margin-bottom: 100px;
   background-image: linear-gradient(to bottom right, #93dcf5, #ffffff);
 }
 
 form input {
   margin-bottom: 10px;
 }
-.last {
-  margin: 10px;
+
+.back {
+  position: absolute;
+  top: 42.7%;
 }
