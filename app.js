@@ -34,12 +34,15 @@ function calculateInterest() {
 
     if(months == 1){
         document.querySelector('#monthly-payment').innerHTML = "You will have to make a  payment of $" + roundedTotal + " for " + months + " month";
-    }else{
+    }else if (months>1){
         document.querySelector('#monthly-payment').innerHTML = "You will have to make a monthly payment of $" + roundedTotal + " for " + months + " months";
     }
     
+    if(!isNaN(totalInterest)){
     document.querySelector('#total-interest').innerHTML = "The total amount you have to pay is $" + totalPayment + ", meaning you will have to pay $" + totalInterest + " in interest";
-
+    } else {
+        document.querySelector('#total-interest').innerHTML = "Please fill in all fields"
+    }
 
 }
 
