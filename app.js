@@ -25,8 +25,12 @@ function calculateInterest() {
     var top = (principalValue * interestRate) * totalInterestRate
 
     var monthlyPayment = top/(totalInterestRate-1);
+    
 
     let roundedTotal = monthlyPayment.toFixed(2);
+
+    var totalPayment = (roundedTotal * months).toFixed(2);
+    var totalInterest = (totalPayment - principalValue).toFixed(2);
 
     if(months == 1){
         document.querySelector('#monthly-payment').innerHTML = "You will have to make a  payment of $" + roundedTotal + " for " + months + " month";
@@ -34,5 +38,6 @@ function calculateInterest() {
         document.querySelector('#monthly-payment').innerHTML = "You will have to make a monthly payment of $" + roundedTotal + " for " + months + " months";
     }
     
+    document.querySelector('#total-interest').innerHTML = "The total amount you have to pay is $" + totalPayment + ", meaning you will have to pay $" + totalInterest + " in interest";
 
 }
