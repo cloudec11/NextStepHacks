@@ -110,7 +110,7 @@ button.debt {
   cursor: pointer;
   border-radius: 10px;
   background-image: none;
-  top: 42.7%;
+  top: 52.7%;
   left: 40.5%;
 }
 
@@ -207,7 +207,7 @@ form input {
 
 .back {
   position: absolute;
-  top: 42.7%;
+  top: 52.7%;
   padding-left: 20px;
   margin-left: 10px;
 }
