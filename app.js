@@ -1,6 +1,6 @@
 var schoolName = document.getElementById("school-name").value;
     
-if(schoolName == ""){
+if(schoolName === "untitled"){
     schoolName = "school"
 }
 

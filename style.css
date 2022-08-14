@@ -86,7 +86,7 @@ button.godebt {
   cursor: pointer;
   border-radius: 10px;
   background-image: none;
-  top: 88%;
+  top: 76.7%;
   left: 34.5%;
 }
 
@@ -111,7 +111,7 @@ button.debt {
   border-radius: 10px;
   background-image: none;
   top: 42.7%;
-  left: 28.5%;
+  left: 40.5%;
 }
 
 button.debt:hover {
@@ -208,4 +208,10 @@ form input {
 .back {
   position: absolute;
   top: 42.7%;
+  padding-left: 20px;
+  margin-left: 10px;
+}
+
+form-home {
+  padding-bottom: 100px;
 }
