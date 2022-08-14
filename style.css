@@ -113,7 +113,6 @@ button.debt {
 
   top: 50%;
   left: 2%;
-
 }
 
 button.debt:hover {
@@ -121,8 +120,6 @@ button.debt:hover {
   color: black;
   background-image: none;
 }
-
-
 
 button.debt2 {
   border: none;
@@ -140,7 +137,7 @@ button.debt2 {
   background-image: none;
   top: 50%;
   left: 32.5%;
-
+}
 #total-tuition {
   position: absolute;
   left: 55%;
@@ -155,10 +152,9 @@ kek {
 
   font-size: 40px;
   color: black;
-
 }
 
-button.debt2:hover{
+button.debt2:hover {
   background-color: #ffe600;
   color: black;
   background-image: none;
@@ -182,21 +178,20 @@ button.debt3 {
   left: 70%;
 }
 
-button.debt3:hover{
+button.debt3:hover {
   background-color: #ffe600;
   color: black;
   background-image: none;
 }
 
-
 #total-tuition {
   position: absolute;
   left: 55%;
   top: 30%;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: x-large;
   font-weight: 400;
-
+}
 form {
   box-sizing: border-box;
   padding: 0;
@@ -209,16 +204,14 @@ form {
 }
 
 button:hover {
-
   background-color: #ffe600;
 }
-
 
 #monthly-payment {
   position: absolute;
   left: 55%;
   top: 30%;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: x-large;
   font-weight: 400;
   background-color: #ffe600;
@@ -229,7 +222,7 @@ button:hover {
   position: absolute;
   left: 55%;
   top: 30%;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: x-large;
   font-weight: 400;
   background-color: #ffe600;
@@ -263,4 +256,3 @@ form input {
 form-home {
   padding-bottom: 100px;
 }
-
