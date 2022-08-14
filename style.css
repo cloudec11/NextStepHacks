@@ -110,8 +110,10 @@ button.debt {
   cursor: pointer;
   border-radius: 10px;
   background-image: none;
-  top: 52.7%;
-  left: 40.5%;
+
+  top: 50%;
+  left: 2%;
+
 }
 
 button.debt:hover {
@@ -119,6 +121,25 @@ button.debt:hover {
   color: black;
   background-image: none;
 }
+
+
+
+button.debt2 {
+  border: none;
+  background-color: red;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  padding: 30px 200px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 10px;
+  background-image: none;
+  top: 50%;
+  left: 32.5%;
 
 #total-tuition {
   position: absolute;
@@ -134,44 +155,47 @@ kek {
 
   font-size: 40px;
   color: black;
+
 }
 
-inst {
-  font-family: "Courier New", Courier, monospace;
-
-  font-family: "Courier New", Courier, monospace;
-
-  font-size: 30px;
+button.debt2:hover{
+  background-color: #ffe600;
   color: black;
+  background-image: none;
 }
 
-input {
-  display: block;
-  padding: 20px 15px;
-  background-color: aliceblue;
-  border-radius: 8px;
-  transition: 0.4s;
-}
-
-button {
+button.debt3 {
   border: none;
   background-color: red;
   color: rgb(0, 0, 0);
+  position: absolute;
   padding: 30px 200px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 25px;
-  margin: 30px 2px;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   cursor: pointer;
+  border-radius: 10px;
+  background-image: none;
+  top: 50%;
+  left: 70%;
 }
 
-button:hover {
+button.debt3:hover{
   background-color: #ffe600;
   color: black;
+  background-image: none;
 }
+
+
+#total-tuition {
+  position: absolute;
+  left: 55%;
+  top: 30%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+  font-weight: 400;
 
 form {
   box-sizing: border-box;
@@ -185,8 +209,32 @@ form {
 }
 
 button:hover {
+
   background-color: #ffe600;
-  color: black;
+}
+
+
+#monthly-payment {
+  position: absolute;
+  left: 55%;
+  top: 30%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+  font-weight: 400;
+  background-color: #ffe600;
+  top: 23%;
+}
+
+#total-interest {
+  position: absolute;
+  left: 55%;
+  top: 30%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+  font-weight: 400;
+  background-color: #ffe600;
+  top: 28%;
+  left: 5;
 }
 
 form {
@@ -215,3 +263,4 @@ form input {
 form-home {
   padding-bottom: 100px;
 }
+

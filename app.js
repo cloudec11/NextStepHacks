@@ -26,6 +26,7 @@ function calculateInterest() {
     var top = (principalValue * interestRate) * totalInterestRate
 
     var monthlyPayment = top/(totalInterestRate-1);
+    
 
     let roundedTotal = monthlyPayment.toFixed(2);
 
@@ -45,4 +46,3 @@ function calculateInterest() {
     }
 
 }
-
